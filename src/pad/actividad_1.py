@@ -13,7 +13,7 @@ class Ingestiones():
     def escribir_json(self, nombre_archivo, datos): # Esta clase escribe en un archivo json, los datos extraidos desde la api con la información del anime Naruto
         ruta_json = "{}json/{}.json".format(self.ruta_static, nombre_archivo) # Creamos el nombre del archivo con la extensión .json
         with open(ruta_json, mode="w", encoding="utf-8") as archivo:
-            json.dump(datos, archivo)   # Guardamos los datos en un archivo JSON con el nombre especificado
+            json.dump(datos, archivo,ensure_ascii=False, indent=4)   # Guardamos los datos en un archivo JSON con el nombre especificado
             
 
 # crear instancia de la clase

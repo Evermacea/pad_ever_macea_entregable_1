@@ -5,6 +5,7 @@ __pycache__/
 
 # C extensions
 *.so
+src/pad/static/json/*.json  #Esto es para ignorar el archivo json que se crea automáticamente con el código creado
 
 # Distribution / packaging
 .Python

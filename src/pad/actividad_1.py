@@ -18,7 +18,7 @@ class Ingestiones():
 ingestion = Ingestiones()
 print(ingestion.ruta_static)
 datos_json = ingestion.leer_api("https://dattebayo-api.onrender.com/clans") # Llamamos a la función leer_api con la ruta de la API
-print("Datos del archivo json : ",datos_json)
+#print("Datos del archivo json : ",datos_json)
 
 ingestion.escribir_json("clanes_naruto", datos_json)  # Guardamos los datos en un archivo JSON cuyo nombre es "clanes_naruto"
 print("Archivo json creado con éxito yuju! 🎉✨🤸‍♂️")

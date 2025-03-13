@@ -12,5 +12,6 @@ setup(
         "matplotlib",
         "plotly",  # Aquí debe ser "plotly", NO "plotly.express"
         "requests"
+        "openpyxl"
     ],
 )

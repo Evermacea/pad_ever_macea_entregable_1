@@ -22,7 +22,7 @@ class Matrices(): # Una sola dimensión
         data = pd.DataFrame(randn(filas, columnas), columns='W X Y Z'.split(" ")) # Hacer el calculo ((w*y)-z)+y
         print(data)
         data['iudigital'] = 'pad'
-        data['function']= (data['W']*data['Y'] -data['Z'] )+data['Y']
+        data['function']= (data['W']*data['Y'] - data['Z']) + data['Y']
         data.to_excel("datos_generados.xlsx", sheet_name="Sheet1")
 
 matr = Matrices()

@@ -6,12 +6,15 @@ setup(
     author="Ever Macea",
     author_email="ever.macea@est.iudigital.edu.co",
     description="",
-    py_modules=["actividad_1"],
+    py_modules=["actividad_2"],
     install_requires=[
         "pandas",
         "matplotlib",
+        "searborn>=0.11.2",
         "plotly",  # Aquí debe ser "plotly", NO "plotly.express"
         "requests"
-        "openpyxl"
+        "openpyxl",
+        "kagglehub[pandas-datasets]>=0.3.8",
+        "matplotlib>=3.5.0"
     ],
 )

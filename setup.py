@@ -12,9 +12,10 @@ setup(
         "matplotlib",
         "seaborn>=0.11.2",
         "plotly",  # Aquí debe ser "plotly", NO "plotly.express"
-        "requests"
+        "requests",
         "openpyxl",
         "kagglehub[pandas-datasets]>=0.3.8",
         "matplotlib>=3.5.0"
     ],
 )
+

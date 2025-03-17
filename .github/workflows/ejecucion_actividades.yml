@@ -33,7 +33,7 @@ jobs:
       - name: Commit and Push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: Entrega actividad 1
+          commit_message: Entrega actividad 2
           commit_user_name: Ever Macea [GitHub Actions]
           commit_user_email: ever.macea@est.iudigital.edu.co
           commit_author: Ever Macea <ever.macea@est.iudigital.edu.co>
